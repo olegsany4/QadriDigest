@@ -1,0 +1,72 @@
+# --- авто-сгенерированный список каналов (обновлён) ---
+# Формат: username (без @) или числовой id для приватных/без username
+# Комментарии и пустые строки игнорируются
+
+# --- СМИ / Политика / Новости ---
+kommersant
+vedomosti
+interfax_news
+rbc_news
+vesti_news
+bloomberg_ru
+headlines_for_traders
+ostorozhno_novosti
+thebell_io
+sotavision
+
+# --- Трейдинг / Рынки / Сигналы ---
+markettwits
+
+if_bonds
+if_stocks
+
+
+birzhevikstocksofficial2
+thewallstreetpro
+moexwolf
+trade001k
+AK47pfl
+cbrstocks
+invest_typical
+bcs_express
+investhero
+
+# --- Личные финансы / Инвестблоги ---
+selfinvestor
+banksta
+hranidengi
+bitkogan
+bitkogan_hotline
+investfuture
+dengi_bitkogan
+kira_pronira
+antonchehovanalitk
+tb_invest_official
+SberInvestments
+sberbank
+radium_finance
+RuSETFS
+
+tinkoff_journal
+
+
+
+
+yourfinance
+prodengi
+zaemschik
+million_dochke
+finbuntar
+dengi_vnutri
+antirab
+fin_observer
+banki_ru
+vulcanfinance
+
+# --- Информационная безопасность ---
+hakerd
+securitylab_ru
+zeronights
+it_security
+
+bug_bounty
