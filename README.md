@@ -81,3 +81,22 @@ quadridigest/
    - Алгоритм simhash/кластеризация.
    - Исключение повторов между источниками.
    - DoD: при dry-run видно, что одинаковые новости не дублируются в разных каналах.
+
+---
+
+## Статус выполнения этапов
+
+- ✅ 3) Нормализация — clean_text удаляет сигнатуры/UTM, нормализует кавычки/пробелы, определяет язык; doctest/selftest в файле; 10 unit-тестов зелёные.
+
+---
+
+<a name="NEXT_CHAT_4"></a>
+### NEXT_CHAT_4
+Следующий этап: **4) Дедуп: кластеры и отпечатки**
+
+Файлы: `dedupe/simhash.py`, `dedupe/clusters.py`, `storage/repositories.py`, `storage/db.py`.
+
+1. быстрый отпечаток (blake/simhash) для предварительного отсева;
+2. уникальный индекс на `(channel, fingerprint)`:
+   ```sql
+   create unique index if not exists uq_posts_channel_fp on posts(channel, fingerprint);

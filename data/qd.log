@@ -6802,3 +6802,28 @@ telethon.errors.rpcerrorlist.QueryIdInvalidError: The query ID is invalid (cause
 2025-09-27 09:55:08,133 [INFO] root: [DRY] politics → #politics
 2025-09-27 09:55:08,134 [INFO] root: Route: source=sotaproject → topic=politics
 2025-09-27 09:55:08,134 [INFO] root: [DRY] politics → #politics
+2025-09-27 10:55:52,510 [INFO] quadridigest.fetch.sources: read_sources: loaded 3 seed message(s) from /Users/oleglapinin/MyProjects/QadriDigest/data/seed_messages.txt
+2025-09-27 10:56:54,687 [INFO] quadridigest.fetch.sources: read_sources: loaded 3 seed message(s) from /Users/oleglapinin/MyProjects/QadriDigest/data/seed_messages.txt
+2025-09-27 10:58:14,845 [INFO] quadridigest.fetch.sources: read_sources: loaded 3 seed message(s) from /Users/oleglapinin/MyProjects/QadriDigest/data/seed_messages.txt
+2025-09-27 10:59:30,998 [INFO] quadridigest.fetch.sources: read_sources: loaded 3 seed message(s) from /Users/oleglapinin/MyProjects/QadriDigest/data/seed_messages.txt
+2025-09-27 10:59:31,006 [INFO] root: Route: source=readovkanews → topic=politics
+2025-09-27 10:59:31,006 [INFO] root: Publish → politics (@qd_politics)
+2025-09-27 11:00:41,271 [INFO] quadridigest.fetch.sources: read_sources: loaded 3 seed message(s) from /Users/oleglapinin/MyProjects/QadriDigest/data/seed_messages.txt
+2025-09-27 11:00:41,280 [INFO] root: Route: source=readovkanews → topic=politics
+2025-09-27 11:00:41,281 [INFO] root: Publish → politics (@qd_politics)
+2025-09-27 11:00:41,529 [INFO] root: Route: source=nezygar → topic=politics
+2025-09-27 11:00:41,529 [INFO] root: Publish → politics (@qd_politics)
+2025-09-27 11:00:41,658 [INFO] root: Route: source=sotaproject → topic=politics
+2025-09-27 11:00:41,658 [INFO] root: Publish → politics (@qd_politics)
+2025-09-27 11:02:10,264 [INFO] quadridigest.fetch.sources: read_sources: loaded 3 seed message(s) from /Users/oleglapinin/MyProjects/QadriDigest/data/seed_messages.txt
+2025-09-27 11:02:10,269 [INFO] root: Duplicate skipped: 812fbe9c5022145e:68cc14f962906550
+2025-09-27 11:02:10,270 [INFO] root: Duplicate skipped: b3ef68f97e2494da:d1a68837b8167ebe
+2025-09-27 11:02:10,270 [INFO] root: Duplicate skipped: 799fb81f08d2ec7b:107c69ef7f2fec0c
+2025-09-27 11:03:34,209 [INFO] quadridigest.fetch.sources: read_sources: loaded 3 seed message(s) from /Users/oleglapinin/MyProjects/QadriDigest/data/seed_messages.txt
+2025-09-27 11:03:34,212 [INFO] root: Duplicate skipped: 812fbe9c5022145e:68cc14f962906550
+2025-09-27 11:03:34,213 [INFO] root: Duplicate skipped: b3ef68f97e2494da:d1a68837b8167ebe
+2025-09-27 11:03:34,213 [INFO] root: Duplicate skipped: 799fb81f08d2ec7b:107c69ef7f2fec0c
+2025-09-27 11:06:45,822 [INFO] quadridigest.fetch.sources: read_sources: loaded 3 seed message(s) from /Users/oleglapinin/MyProjects/QadriDigest/data/seed_messages.txt
+2025-09-27 11:06:45,825 [INFO] root: Duplicate skipped: 812fbe9c5022145e:68cc14f962906550
+2025-09-27 11:06:45,825 [INFO] root: Duplicate skipped: b3ef68f97e2494da:d1a68837b8167ebe
+2025-09-27 11:06:45,826 [INFO] root: Duplicate skipped: 799fb81f08d2ec7b:107c69ef7f2fec0c

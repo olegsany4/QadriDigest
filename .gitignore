@@ -1,0 +1,31 @@
+# venv / tools
+.venv/
+.env
+.env.*
+*.log
+
+# python cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# editor/OS
+.DS_Store
+.vscode/
+.idea/
+
+# local db / artifacts
+*.db
+*.sqlite3
+*.sqlite
+data/*.db
+data/*.sqlite
+
+# nested mirror repo (попал в коммит ранее)
+QadriDigest.mirror.git/
