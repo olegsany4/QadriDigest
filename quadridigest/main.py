@@ -1,3 +1,11 @@
+
+# ---- .env support ----
+try:
+    from dotenv import load_dotenv  # type: ignore
+    load_dotenv()
+except Exception:
+    pass
+
 import argparse
 import asyncio
 import logging
