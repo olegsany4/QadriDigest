@@ -1,0 +1,31 @@
+{
+  "politics": [
+    "readovkanews",
+    "nezygar",
+    "sotaproject",
+    "thebell_io",
+    "russia_news",
+    "vazhnye_istorii"
+  ],
+  "trading": [
+    "investfundsru",
+    "bcs_express",
+    "finamchannel",
+    "bitkogan_hotline",
+    "alfabank",
+    "rusetfs"
+  ],
+  "pf": [
+    "hranidengi",
+    "blogbankir",
+    "finkod_vtb",
+    "sberbank"
+  ],
+  "infosec": [
+    "SecLabNews",
+    "tg_security",
+    "codeby_sec",
+    "hack_less",
+    "it_secur"
+  ]
+}

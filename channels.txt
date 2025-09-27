@@ -1,0 +1,66 @@
+# --- авто-сгенерированный список каналов (обновлён) ---
+# Формат: username (без @) или числовой id для приватных/без username
+# Комментарии и пустые строки игнорируются
+
+# --- СМИ / Политика / Новости ---
+readovkanews
+vedomosti
+ostorozhno_novosti
+headlines_geo
+interfaxonline
+bloomberg_ru
+kommersant
+
+# --- Трейдинг / Рынки / Сигналы ---
+bitkogan
+tb_invest_official
+markettwits
+cbrstocks
+banksta
+bankrollo
+newssmartlab
+thewallstreetpro
+selfinvestor
+if_market_news
+dengi_bitkogan
+nefte_baza
+smartlabnews
+headlines_for_traders
+headlines_quants
+headlines_macro
+AK47pfl
+SberInvestments
+bitkogan_hotline
+bcs_express
+russianmacro
+ProfitGate
+kira_pronira
+investfuture
+investor_catalog
+investheroes
+wallstreetqueenofficial
+if_stocks
+if_bonds
+gazpromneft_official
+finamalert
+investfundsru
+radium_finance
+alfabank
+RuSETFS
+
+# --- Личные финансы / Инвестблоги ---
+hranidengi
+blogbankir
+cach_in_tablic
+finkod_vtb
+sberbank
+tbank
+
+# --- Информационная безопасность ---
+SecLabNews
+tg_security
+haccing
+codeby_sec
+hack_less
+irozysk
+it_secur

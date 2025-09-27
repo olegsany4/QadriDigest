@@ -1,0 +1,9 @@
+
+short: |
+  #{{ topic }}
+  {{ headline }} — {{ summary }}
+
+full: |
+  #{{ topic }}
+  {{ full_text }}
+  {% if evidence and evidence|length>0 %}Источники: {{ evidence|join(", ") }}{% endif %}
