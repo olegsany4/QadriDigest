@@ -100,3 +100,42 @@ quadridigest/
 2. уникальный индекс на `(channel, fingerprint)`:
    ```sql
    create unique index if not exists uq_posts_channel_fp on posts(channel, fingerprint);
+
+# QadriDigest (Refactor Skeleton)
+
+Дата сборки: 2025-09-27
+
+Это референсная структура проекта для новостного агрегатора с дедупликацией, LLM-аннотацией
+и публикацией в телеграм-каналы в формате «коротко → подробнее».
+
+## Ключевые фичи
+- Модульные слои: fetch / normalize / dedupe / llm / format / publish / storage.
+- UX публикации переключаем через `UI_VARIANT=reply|edit`.
+- **Строгий JSON-контракт между пайплайном и LLM** (Pydantic-модели, ретрай при невалидном JSON).
+- **Реальный LLM-клиент** (OpenAI / Gemini / Ollama), кэширование ответов (in-memory, TTL).
+- Идемпотентность публикаций по `fingerprint`.
+- Логи, `.env.example`, `templates.yaml`, тестовые заготовки.
+
+## Быстрый старт
+1) `python -m venv .venv && source .venv/bin/activate`  
+2) `pip install -r requirements.txt`  
+3) Скопируй `.env.example` → `.env` и заполни:
+   ```env
+   # включение LLM-режима
+   PUBLISH_MODE=llm
+   LLM_ENABLED=true
+
+   # провайдер: ollama | openai | gemini
+   LLM_PROVIDER=ollama
+   LLM_MODEL=llama3.1:8b
+   OLLAMA_BASE_URL=http://localhost:11434
+
+   # для OpenAI/Gemini — ключи:
+   # OPENAI_API_KEY=...
+   # GEMINI_API_KEY=...
+
+   # опционально: TTL кэша в секундах
+   # LLM_CACHE_TTL_SEC=3600
+
+   # варианты UI: reply | edit
+   UI_VARIANT=reply
