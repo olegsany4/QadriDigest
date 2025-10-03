@@ -1,9 +1,8 @@
+# quadridigest/format/templates.yaml — HTML (with emoji, conditional source line)
+short:
+  body: "📰 <b>{headline}</b>\n\n{summary_excerpt}{summary_spoiler}\n\n{source_block_emoji}\n\n🏷️ {hashtags}"
+  link_preview: false
 
-short: |
-  #{{ topic }}
-  {{ headline }} — {{ summary }}
-
-full: |
-  #{{ topic }}
-  {{ full_text }}
-  {% if evidence and evidence|length>0 %}Источники: {{ evidence|join(", ") }}{% endif %}
+full:
+  body: "📰 <b>{headline}</b>\n\n{summary}\n\n{source_block_emoji}\n\n🏷️ {hashtags}"
+  link_preview: false
